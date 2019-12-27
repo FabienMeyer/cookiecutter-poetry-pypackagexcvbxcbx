@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+version = "{{ cookiecutter.project_version }}"
+description = "{{ cookiecutter.project_description }}"
+authors = ["{{ cookiecutter.author_full_name }} <{{ cookiecutter.author_email }}>"]
+license = "{{ cookiecutter.project_license }}"
+readme = "README.rst"
+changelog = "CHANGELOG.rst"
+repository =  "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}"
+homepage = "https://{{ cookiecutter.project_name }}.readthedocs.io"
+
+packages = "{}"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+]
+
+[tool.poetry.source]
+
+[tool.poetry.scripts]
+
+[tool.poetry.dependencies]
+
+[tool.poetry.dev-dependencies]
+pip = "^19.3.1"
+wheel = "^0.33.6"
+setuptools = "^42.0.2"
+[tool.poetry.extras]
+
+[tool.poetry.plugins]
+
+[tool.poetry.urls]
+
+[build-system]
